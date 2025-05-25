@@ -67,6 +67,25 @@ make ecb_vbs -j16
 然后可以使用WebSocket客户端连接到 `ws://localhost:20101` 发送JSON请求。
 
 
+## 使用的第三方库
+
+本项目使用了以下开源库：
+
+1. **WebSocket++**
+   - 描述: C++实现的WebSocket服务器和客户端库
+   - 项目地址: https://github.com/zaphoyd/websocketpp
+   - 许可证: BSD许可证
+
+2. **nlohmann/json**
+   - 描述: 现代C++ JSON处理库
+   - 项目地址: https://github.com/nlohmann/json
+   - 许可证: MIT许可证
+
+3. **struct_json**
+   - 描述: C++结构体与JSON转换库
+   - 项目地址: https://github.com/alibaba/yalantinglibs
+   - 许可证: Apache 2.0许可证
+
 ## WebSocket通信格式
 
 ### 请求格式
@@ -293,6 +312,4 @@ make ecb_vbs -j16
   }
 }
 ```
-
-
 
